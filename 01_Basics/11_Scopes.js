@@ -20,4 +20,23 @@ function one(){
 
     two()
 }
-// one()
+// one() 
+
+if (true) {
+    const username = "nandani"
+    if(username === "nandu") {
+        const website = "youtube"
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
+
+
+// ***************
+
+
+const addTwo = function(num){
+    return num + 3
+}
+addTwo(5)
